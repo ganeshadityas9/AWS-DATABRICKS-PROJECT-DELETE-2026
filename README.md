@@ -7,4 +7,6 @@ Created Amazon S3 bucket with the following folder structure:
 - silver/
 - gold/
 
+
+
 The bucket acts as the central data lake for storing raw, cleaned, and curated datasets.
