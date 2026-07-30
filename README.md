@@ -1,12 +1,21 @@
-## Task 2 - S3 Data Lake Setup
+## Task 3 - IAM OIDC Setup
 
-Created Amazon S3 bucket with the following folder structure:
+Created GitHub OpenID Connect (OIDC) Identity Provider in AWS IAM.
 
-- input/
-- bronze/
-- silver/
-- gold/
+Provider URL:
+https://token.actions.githubusercontent.com
+
+Audience:
+sts.amazonaws.com
+
+This enables secure authentication between GitHub Actions and AWS without storing long-term AWS access keys.
 
 
+Task 3 - IAM OIDC Setup
+Created GitHub OpenID Connect (OIDC) Identity Provider in AWS IAM.
 
-The bucket acts as the central data lake for storing raw, cleaned, and curated datasets.
+Provider URL: https://token.actions.githubusercontent.com
+
+Audience: sts.amazonaws.com
+
+This enables secure authentication between GitHub Actions and AWS without storing long-term AWS access keys.
