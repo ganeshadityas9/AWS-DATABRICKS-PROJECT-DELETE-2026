@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload input files to S3
         run: |
-          aws s3 cp data/input/*.csv s3://aws-databricks-project-delete-2026/input/ 
+          aws s3 cp data/input/ s3://aws-databricks-project-delete-2026/input/
